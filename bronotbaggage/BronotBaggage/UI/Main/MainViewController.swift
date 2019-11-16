@@ -4,20 +4,19 @@
 //
 
 import UIKit
+import SnapKit
+
+
 
 class MainViewController: UIViewController {
 
-    // MARK: - Instance Properties
-
-    @IBOutlet private weak var emojiLabel: UILabel!
-    @IBOutlet private weak var messageLabel: UILabel!
-
-    override var preferredStatusBarStyle: UIStatusBarStyle {
-        return .lightContent
+    let imageView = UIImageView(image: )
+    
+    override func loadView() {
+        super.loadView()
+        view.backgroundColor = .white
+        
     }
-
-    // MARK: - Instance Methods
-
     override func viewDidLoad() {
         super.viewDidLoad()
 
