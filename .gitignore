@@ -2,3 +2,4 @@
 *.xcodeproj
 *.xcworkspace
 Pods/
+Podfile.lock
