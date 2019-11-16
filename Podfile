@@ -6,5 +6,6 @@ target 'BronotBaggage' do
 
   # Pods for BronotBaggage
   pod 'SnapKit', '5.0.0'
+  pod 'TensorFlowLiteSwift', '0.0.1-nightly'
 
 end
