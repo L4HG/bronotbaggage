@@ -1,0 +1,12 @@
+name: BronotBaggage
+options:
+  bundleIdPrefix: ru.adeveloper
+targets:
+  BronotBaggage:
+    type: application
+    platform: iOS
+    deploymentTarget: "12.0"
+    sources: [BronotBaggage]
+    settings:
+      DEVELOPMENT_TEAM: "4F49EB9LA6"
+      INFOPLIST_FILE: BronotBaggage/Info.plist
